@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>FORMULARIO</h2>
+        <label for="id">ID:</label><input id="id" type="text"><br>
+        <label for="Nombre">Nombre:</label><input id="Nombre" type="text"><br>
+        <label for="Apellido">Apellido</label><input id="Apellido" type="text"><br>
+        <label for="FechaNacimiento">Fecha de nacimiento:</label><input id="FechaNacimiento" type="date"><br>
+        <label for="mail">Email:</label><input id="mail" type="mail"><br>
+
+        <button id="agregar">Agregar</button>
+        <button id="filtrarEd">Filtrar Edad</button>
+        <button id="filtrarMail">Filtrar Mail</button>
+        <button id="filtrarApellido">Filtrar Apellido</button>
+    </form>
+    <div id="resultadoFiltrar">
+        <table border="1">
+            <tbody id="newPersonContenedor">
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Fecha de Nacimiento</th>
+                    <th>Email</th>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
